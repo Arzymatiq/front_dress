@@ -1,0 +1,30 @@
+.table {
+  display: flex;
+  width: 100%;
+  min-height: 400px;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.product_main_div {
+  padding: 5px;
+  background-color: rgba(208, 208, 208, 0.154);
+  display: flex;
+  justify-content: space-around;
+  margin: 15px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.267);
+}
+.productImage {
+  height: auto;
+  width: 250px;
+}
+
+.productImage > img {
+  width: 100%;
+}
+.product_main_div_info {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
