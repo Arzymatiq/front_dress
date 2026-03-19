@@ -133,6 +133,12 @@ const Navbar = () => {
                 ))}
               </NavDropdown>
             </li>
+            <li
+              onClick={() => navigate("/suport")}
+              className={style.navbar__item}
+            >
+              suport
+            </li>
           </ul>
 
           <div className={style.navbar__info}>
